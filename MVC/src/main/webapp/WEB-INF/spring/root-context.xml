@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:mybatis-spring="http://mybatis.org/schema/mybatis-spring"
+	xsi:schemaLocation="http://mybatis.org/schema/mybatis-spring http://mybatis.org/schema/mybatis-spring-1.2.xsd http://www.springframework.org/schema/beans https://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- Root Context: defines shared resources visible to all other web components -->
+	<!-- DB연결하는 파일 -->
+	
+	<!-- 
+	public class A {
+		private String id;
+		public void setId(String id){
+			this.id=id;
+		}
+	}
+	A a = new A();
+	a.setId("smhrd");
+	위의 코드를 아래와 같이 표현
+	<bean id="a" class="aa.bb.cc.A">
+	    <property name="id" value="smhrd"/>
+	</bean>
+	
+	public class A{
+	
+	}
+	public class B{
+		private A a;
+		public B(A a){
+			this.a = a;
+		}
+		public void setA(A a){
+			this.a = a;
+		}
+	}
+	A a = new A();
+	B b = new B(a); //생성자 주입
+	b.setA(a); //setter 주입
+	위의 코드를 아래와 같이 표현
+	<bean id="a" class="aa.bb.cc.A/>
+	<bean id="b" class="aa.bb.cc.b>
+		<constructor-arg ref="a/>
+		<property name="a" ref="a"/>
+	<bean>
+	-->
+	
+	<!-- API(HikariCP) 커넥션 풀을 만들기 위한 세팅 -->
+	<bean id="hikariConfig" class="com.zaxxer.hikari.HikariConfig">
+		<property name="driverClassName" value="oracle.jdbc.driver.OracleDriver"/>
+		<property name="jdbcUrl" value="jdbc:oracle:thin:@127.0.0.1:1521:XE"/>
+		<property name="username" value="hr"/>
+		<property name="password" value="hr"/>
+	</bean>
+	<!-- 커넥션 풀을 만드는 소스, 위의 아이디를 가져옴 -->
+	<bean id="dataSource" class="com.zaxxer.hikari.HikariDataSource" destroy-method="close">
+		<constructor-arg ref="hikariConfig" />
+	</bean>
+	<!-- BoardMapper 인터페이스의 구현클래스 생성
+	만들어진 커넥션 풀을 꺼내와서 사용, SqlSessionFactoryBean(SQL을 실행하는 API) -->
+	<bean class="org.mybatis.spring.SqlSessionFactoryBean">
+	    <property name="dataSource" ref="dataSource"/>
+	</bean>
+	<!--여러개의 Mapper인터페이스를 메모리에 올리는 방법(scan)
+	메모리에 올라가야 구현체와 연결가능 -->
+	<mybatis-spring:scan base-package="kr.board.mapper"/>		
+</beans>
