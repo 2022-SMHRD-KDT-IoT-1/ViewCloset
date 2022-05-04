@@ -18,16 +18,20 @@
 * DB: Firebase  /  oracle 11g
 * 영상편집: 뱁믹스
 
-## 4. 대표 이미지![image](https://user-images.githubusercontent.com/99248886/166611200-88da48c6-0358-456a-83f8-de80f3628b83.png)
+## 4. 대표 이미지!![image](https://user-images.githubusercontent.com/99248886/166611412-9fc116d1-6efe-40ea-acc6-2ddd7b4f26e7.png)
+
 
 ## 5. 기능 흐름도
 #### 서비스 흐름도(유스케이스)
-![2](https://user-images.githubusercontent.com/99248760/158153084-c9a75c31-1ca3-4f53-9116-97937c6c9da6.png)
+##### HW 유스케이스
+![image](https://user-images.githubusercontent.com/99248886/166611574-69249b6f-f306-436d-ad36-d20fee316220.png)
+##### SW 유스케이스
+![image](https://user-images.githubusercontent.com/99248886/166611717-6a761c62-393f-444b-9945-34d5533b50dc.png)
 #### 서비스 흐름도(웹 화면설계서)
-![1](https://user-images.githubusercontent.com/99248760/158153098-8052da8b-b200-4abc-b7c0-c30cde7747da.png)
+![image](https://user-images.githubusercontent.com/99248886/166611795-b01ddc4f-8236-4955-ae77-be4b576025d7.png)
 
 ## 6. 사용 부품
-![image](https://user-images.githubusercontent.com/99248760/158153342-8d06faa5-95c0-4035-b163-41f4da37fa38.png)
+![image](https://user-images.githubusercontent.com/99248886/166611886-43097eeb-192d-4c46-9217-95904bfa3457.png)
 
 
 ## 7. 활용 사진 예시(완성품 사진)
