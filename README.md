@@ -34,40 +34,26 @@
 ![image](https://user-images.githubusercontent.com/99248886/166611886-43097eeb-192d-4c46-9217-95904bfa3457.png)
 
 
-## 7. 활용 사진 예시(완성품 사진)
-#### 메인
-![image](https://user-images.githubusercontent.com/99248760/158153419-2043bf94-43f9-4426-9446-9f55d99b7c23.png)
+## 7. SW 동작 화면
 
-#### 로그인/회원가입 페이지
-![image](https://user-images.githubusercontent.com/99248760/158153474-991af20a-fb8a-4853-816c-c5fd5efb9342.png)
-![image](https://user-images.githubusercontent.com/99248760/158153523-a330804a-6e95-4c61-bbd6-3e2b1dbd1249.png)
+#### 로그인/회원가입/회원괸리/회원수정/회원탈퇴
+![image](https://user-images.githubusercontent.com/99248886/166612486-a17733a6-a3bb-4fd5-873f-57020ab80a16.png)
 
-#### 소음지도 페이지
-![image](https://user-images.githubusercontent.com/99248760/158153549-ce877376-600b-4de1-b3b0-67794a2bc2d1.png)
-![image](https://user-images.githubusercontent.com/99248760/158153602-128d8bdb-409e-4643-a504-34517be4527a.png)
+#### 옷 정보/코디 추천(날씨, 팁, 오늘의 코디, 참고할 수 있는 코디)
+![image](https://user-images.githubusercontent.com/99248886/166612875-aee9b25d-00ff-4c07-a21f-975ccd8e6a0f.png)
 
-#### 소음데이터 게시판(관리자)
-![image](https://user-images.githubusercontent.com/99248760/158153627-3dac3cb6-a4b3-4263-929d-a618faabae07.png)
-![image](https://user-images.githubusercontent.com/99248760/158153674-bee2a3e3-3955-4c5e-9d12-fb53484a3aea.png)
-
-#### 소음데이터 게시판(개인)
-![image](https://user-images.githubusercontent.com/99248760/158153723-44378592-5d18-43e7-815d-7cdcbfe441e1.png)
-![image](https://user-images.githubusercontent.com/99248760/158153765-040d69a8-2d0f-419c-8666-4217939dcfe5.png)
+#### 일정/고객센터
+![image](https://user-images.githubusercontent.com/99248886/166612374-a2f6d85b-501d-4a51-a0d1-8cde0c07ebf2.png)
 
 ## 8. 제작 일정
-일정|상세 내용
-----|-----------------|
-2/7~2/11|기획 및 DB 설계|
-2/7~2/18|웹-DB 연동 설계 및 구현|
-2/21~2/25|기능 구현 및 웹-DB-Arduino 연동|
-2/28~3/6|발표 준비 및 산출문서 작성|
-3/7|발표|
+![image](https://user-images.githubusercontent.com/99248886/166612988-dc4d1968-a694-456c-b7fe-b65feef835bb.png)
 
 ## 9. 팀원 단위 업무 분장 및 결과표
-![image](https://user-images.githubusercontent.com/99248760/158153880-05fdd7bd-1069-4d38-9514-17c9cc954e5c.png)
+![image](https://user-images.githubusercontent.com/99248886/166613023-0cd70ef4-9f0d-4f6c-b8b1-7395e67684a1.png)
 
 ## 10. 제품사진
-![image](https://user-images.githubusercontent.com/99248760/159208585-f87b0656-4430-437f-b7fc-a630ce892b44.png)
+![완성제품1](https://user-images.githubusercontent.com/99248886/166613185-ffa30854-a88e-4c10-8426-88c4ef48c7fb.jpg)
+![완성제품2](https://user-images.githubusercontent.com/99248886/166613187-f29c7beb-f97e-4ad1-868c-4c2141d20136.jpg)
 
 
 ## 11. 시연영상
