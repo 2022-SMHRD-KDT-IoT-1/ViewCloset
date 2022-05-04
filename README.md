@@ -18,7 +18,7 @@
 * DB: Firebase  /  oracle 11g
 * 영상편집: 뱁믹스
 
-## 4. 대표 이미지![image](https://user-images.githubusercontent.com/99248760/158084946-17cf83b1-5da0-45c3-9cfc-6685b84278c5.png)
+## 4. 대표 이미지![image](https://user-images.githubusercontent.com/99248886/166611200-88da48c6-0358-456a-83f8-de80f3628b83.png)
 
 ## 5. 기능 흐름도
 #### 서비스 흐름도(유스케이스)
