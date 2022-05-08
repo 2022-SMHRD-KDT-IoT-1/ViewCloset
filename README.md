@@ -16,7 +16,6 @@
 * 개발도구: 개발도구 : RaspberryPi  /  Arduino  /  VisualStudio  /  AndroidStudio  / SpringFramework
 * 서버환경: tomcat 9.0
 * DB: Firebase  /  oracle 11g
-* 영상편집: 뱁믹스
 
 ## 4. 대표 이미지!![image](https://user-images.githubusercontent.com/99248886/166611412-9fc116d1-6efe-40ea-acc6-2ddd7b4f26e7.png)
 
